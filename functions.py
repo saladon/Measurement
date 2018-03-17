@@ -1,3 +1,4 @@
+a = 'slim salim slime slimey slim.slim'
 def cword(string,word):
     '''Counts given word in given string and return a integer'''
     wordlist = string.split()
