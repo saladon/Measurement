@@ -3,8 +3,6 @@ def cword(string,word):
     wordlist = string.split()
     c = 0
     for x in wordlist:
-            if x == word:
+            if word in x:
                     c += 1
-    if c == 0:
-            c = 'Word not in text'
     return c 
