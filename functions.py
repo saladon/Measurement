@@ -13,7 +13,9 @@ class space():
         return r
 class Tem():
     def __init__(self,ts):
-        self.ts = ts
+        self.ts = tsgit 
     def tstf(self):
         r = self.ts * (9/5) + 32
         return r
+
+print('commit01')
