@@ -11,3 +11,9 @@ class space():
         '''Area in squared meters'''
         r = self.arnf() * 0.092903
         return r
+class Tem():
+    def __init__(self,ts):
+        self.ts = ts
+    def tstf(self):
+        r = self.ts * (9/5) + 32
+        return r
